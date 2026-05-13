@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f0f0f">
+  <title>VIDE KAMI</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9G1MBHP0CH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9G1MBHP0CH');
+  </script>
+
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/index.css">
+
+  <script src="scripts/reveal.js" defer></script>
+  <script src="scripts/parallax.js" defer></script>
+  <script src="scripts/contact.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <section id="hero" class="section section-hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <span class="hero-line" aria-hidden="true"></span>
+      <h1 class="hero-title">VIDE<br>KAMI</h1>
+      <div class="hero-meta">
+        <span>00 / fill the void</span>
+        <span class="hero-dot" aria-hidden="true"></span>
+        <span>MMXXVI</span>
+        <span class="hero-dot" aria-hidden="true"></span>
+        <span>V. 2.0</span>
+      </div>
+    </section>
+
+    <section id="mission" class="section section-mission">
+      <div class="parallax-bg" data-parallax="0.2"></div>
+      <div class="container">
+        <p class="meta-line fade-in"><span class="idx">01</span><span class="rule"></span><span>chapter / vide</span></p>
+        <h2 class="section-display fade-in delay-1">Quest: unlocked</h2>
+        <dl class="definition fade-in delay-2">
+          <dt>vide</dt>
+          <dd>French &middot; empty, void, a space not yet filled.</dd>
+          <dt>kami</dt>
+          <dd>Japanese &#31070; &middot; spirit, divinity, the essence that animates all things.</dd>
+        </dl>
+        <div class="prose fade-in delay-3">
+          <p>We live at the intersection of absence and presence</p>
+          <p>Where emptiness invites potential and spirit breathes life into the formless.</p>
+          <p>A quiet shift in perspective.</p>
+          <p>A philosophy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-about">
+      <div class="parallax-bg" data-parallax="0.1"></div>
+      <div class="container">
+        <p class="meta-line fade-in"><span class="idx">04</span><span class="rule"></span><span>chapter / connect</span></p>
+        <h2 class="section-display fade-in delay-1">Hello World</h2>
+        <div class="prose fade-in delay-2">
+          <p>Vide Kami is a small studio for thoughtful software and quiet images &mdash; part practice, part correspondence.</p>
+          <p>Whether capturing an instance in reality or forging digital tools to shape it, the mission is rooted in intention: to empower one another for a more thoughtful world.</p>
+        </div>
+        <form class="contact-form fade-in delay-3" novalidate>
+          <div class="contact-row">
+            <label class="contact-label">
+              <span>Name</span>
+              <input class="contact-field" type="text" name="name" required>
+            </label>
+            <label class="contact-label">
+              <span>Email</span>
+              <input class="contact-field" type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+          <label class="contact-label">
+            <span>Message</span>
+            <textarea class="contact-field" name="message" rows="6" required></textarea>
+          </label>
+          <label class="contact-hp" aria-hidden="true" tabindex="-1">
+            Leave this field empty
+            <input type="text" name="botcheck" tabindex="-1" autocomplete="off">
+          </label>
+          <div class="contact-actions">
+            <button class="contact-submit" type="submit">
+              <span class="contact-submit-label">Send message</span>
+            </button>
+            <p class="contact-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">&copy; Vide Kami</footer>
+  </main>
+</body>
+
+</html>
