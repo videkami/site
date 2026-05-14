@@ -36,6 +36,7 @@
   /* Layout */
   --content-width: 62ch;
   --wide-width: 1400px;
+  --footer-h: 4.25rem;
 
   /* Animation */
   --duration: 1s;

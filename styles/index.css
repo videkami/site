@@ -451,12 +451,16 @@ main {
   display: none;
 }
 
+.section-about {
+  min-height: calc(100svh - var(--footer-h));
+}
+
 .section-about .container {
   max-width: 720px;
 }
 
 .contact-form {
-  margin-top: var(--space-xl);
+  margin-top: var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
@@ -600,7 +604,11 @@ textarea.contact-field {
 
 /* Footer */
 .site-footer {
-  padding: var(--space-md) var(--space-sm);
+  min-height: var(--footer-h);
+  padding: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: var(--text-mid);
   font-family: var(--font-mono);
